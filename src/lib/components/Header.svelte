@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<header class="header">
+<header class="container header">
     <div class="header__title">
         <a href="#"><h1>Emma Guillaume Portfolio</h1></a>
         <div class="header__title--underline" />
@@ -22,7 +22,7 @@
         font-size: 32px;
     }
     .header {
-        padding: 3vh 0 2vh 0;
+        padding-top: 3vh;
         display: flex;
         flex-direction: column;
         align-items: start;

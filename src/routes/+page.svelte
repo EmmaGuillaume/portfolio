@@ -6,9 +6,7 @@
     import { projets } from "$lib/projet";
 </script>
 
-<Header />
-
-<main>
+<main class="container">
     <div class="body__line" />
     <div class="presentation">
         <h2>Développeuse web junior passionnée</h2>
@@ -57,7 +55,6 @@
     </div>
     <!-- <ButtonDevProject /> -->
 </main>
-<Footer />
 
 <style>
     .separation {

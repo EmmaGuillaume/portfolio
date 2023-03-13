@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<footer class="footer">
+<footer class="container footer">
     <div class="footer__contact">
         <h2>Envie de discuter ?</h2>
         <ul>
