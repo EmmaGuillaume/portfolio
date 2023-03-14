@@ -6,47 +6,57 @@
     import { projets } from "$lib/projet";
 </script>
 
-<main class="container">
-    <div class="body__line" />
-    <div class="presentation">
-        <h2>Développeuse web junior passionnée</h2>
-        <p>
-            Étudiante en MMI et alternante chez l’agence web Ideclap, je cherche
-            une nouvelle alternance en développement web front-end.
-        </p>
-        <div class="presentation__category">
-            <div class="presentation__mots">
-                <p class="presentation__category--p">Me définir en 3 mots :</p>
-                <p>Curieuse, motivée, dynamique</p>
-            </div>
-            <div class="presentation__maitrise">
-                <p class="presentation__category--p">Je maitrise :</p>
-                <p>HTML/CSS</p>
-            </div>
-            <div class="presentation__learning">
-                <p class="presentation__category--p">J'apprends :</p>
-                <p>Javascript, Typescript, Svelte</p>
-            </div>
-        </div>
-        <div class="presentation__button">
-            <a href="#projects">Voir mes projets dev</a>
+<main class="container  lg:ml-28 text-p">
+    <section class="flex flex-row justify-start gap-24">
+        <div class="text-lg">
+            <h2 class="text-2xl font-bold">
+                Développeuse web junior passionnée
+            </h2>
+            <p class="lg:pr-20">
+                Étudiante en MMI et alternante chez l’agence web Ideclap, je
+                cherche une nouvelle alternance en développement web front-end.
+            </p>
+            <section class="mb-8">
+                <div class="mt-2">
+                    <p class="font-medium">Me définir en 3 mots :</p>
+                    <p>Curieuse, motivée, dynamique</p>
+                </div>
+                <div>
+                    <p class="font-medium">Je maitrise :</p>
+                    <p>HTML/CSS</p>
+                </div>
+                <div>
+                    <p class="font-medium">J'apprends :</p>
+                    <p>Javascript, Typescript, Svelte, Tailwind</p>
+                </div>
+            </section>
+            <a href="#projects" class="text-cta font-bold text-xl underline"
+                >Voir mes projets dev</a
+            >
             <!-- <a href="#">Voir mes autres projets</a> -->
         </div>
-    </div>
+        <!-- <img
+            src="images/emma-guillaume-developpeuse-web-bordeaux.jpg"
+            alt="fleche vers le bas"
+            class="invisible lg:visible w-56 h-56 rounded-md "
+        /> -->
+    </section>
     <!-- <LastProject /> -->
-    <div class="separation">
-        <div class="separation__line--left" />
-        <a href="#projects"
+    <div class="flex flex-row align-middle mt-12">
+        <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
+        <a href="#projects" class="w-2/3 lg:w-fit pr-14"
             ><img src="images/arrow-bottom.png" alt="fleche vers le bas" /></a
         >
-        <div class="separation__line--right" />
+        <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
     </div>
     <div class="projets">
-        <h2 id="projects">Mes projets</h2>
+        <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
         <ul>
             {#each projets as project}
                 <li>
-                    <a href={project.url}
+                    <a
+                        href={project.url}
+                        class="text-cta font-bold text-lg underline "
                         >{project.name} - {project.type} - {project.language}</a
                     >
                 </li>
@@ -57,23 +67,11 @@
 </main>
 
 <style>
-    .separation {
+    /* .separation {
         margin: 5vh 0;
         display: flex;
         flex-direction: row;
         align-items: center;
-    }
-    .separation__line--left {
-        margin-top: 1vh;
-        background-color: #79a671;
-        width: 100%;
-        height: 5px;
-    }
-    .separation__line--right {
-        margin-top: 1vh;
-        background-color: #79a671;
-        width: 100%;
-        height: 5px;
     }
     h2 {
         font-size: 24px;
@@ -103,5 +101,5 @@
             margin-right: 2vw;
             max-width: 70%;
         }
-    }
+    } */
 </style>

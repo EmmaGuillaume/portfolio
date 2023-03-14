@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<footer class="container footer">
+<footer class="container lg:ml-28">
     <div class="footer__contact">
         <h2>Envie de discuter ?</h2>
         <ul>
@@ -18,7 +18,7 @@
 </footer>
 
 <style>
-    .footer {
+    /* .footer {
         font-size: 18px;
     }
     .footer__legacy {
@@ -56,5 +56,5 @@
     }
     li {
         display: flex;
-    }
+    } */
 </style>

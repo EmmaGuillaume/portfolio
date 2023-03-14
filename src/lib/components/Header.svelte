@@ -1,61 +1,28 @@
 <script lang="ts">
 </script>
 
-<header class="container header">
-    <div class="header__title">
-        <a href="#"><h1>Emma Guillaume Portfolio</h1></a>
-        <div class="header__title--underline" />
+<header
+    class="pt-8 mb-8 flex flex-col align-top gap-2.5 lg:flex-row justify-between align-middle container lg:ml-28"
+>
+    <div class="">
+        <a href="#home"
+            ><h1 class="text-4xl text-p font-extrabold uppercase" id="home">
+                Emma Guillaume Portfolio
+            </h1></a
+        >
+        <div class="h-1.5 bg-cta w-full mt-4 mb-3 " />
     </div>
 
-    <div class="buttons__header">
-        <a href="#">CV</a>
-        <a href="#">Contact</a>
+    <div class="flex gap-10 font-normal  ">
+        <a
+            href="#"
+            class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px py-8px w-20 lg:h-12"
+            >CV</a
+        >
+        <a
+            href="#"
+            class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px py-8px w-20s lg:h-12"
+            >Contact</a
+        >
     </div>
 </header>
-
-<style>
-    a {
-        text-decoration: none;
-    }
-    h1 {
-        font-weight: 800;
-        font-size: 32px;
-    }
-    .header {
-        padding-top: 3vh;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 2vh;
-    }
-    .header__title--underline {
-        margin-top: 1vh;
-        background-color: #79a671;
-        width: 100%;
-        height: 5px;
-    }
-    .buttons__header {
-        display: flex;
-        gap: 5vw;
-    }
-
-    .buttons__header a {
-        font-weight: 400;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        color: #303d21;
-        border: solid 2px #303d21;
-        border-radius: 30px;
-        padding: 8px 8px;
-        width: 72px;
-    }
-    @media screen and (min-width: 868px) {
-        .header {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-    }
-</style>

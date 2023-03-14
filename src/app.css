@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+    font-family: 'Satoshi';
+    background-color: #feffed;
+}
