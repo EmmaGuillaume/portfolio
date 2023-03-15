@@ -2,9 +2,9 @@
 </script>
 
 <header
-    class="pt-8 mb-8 flex flex-col align-top gap-2.5 lg:flex-row justify-between lg:align-middle container lg:ml-28"
+    class="container pt-8 mb-8 flex flex-col align-top gap-2.5 lg:flex-row lg:justify-evenly lg:align-middle  lg:ml-28"
 >
-    <div class="">
+    <div>
         <a href="#home"
             ><h1 class="text-4xl text-p font-extrabold uppercase" id="home">
                 Emma Guillaume Portfolio
