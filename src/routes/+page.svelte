@@ -6,6 +6,44 @@
     import { projets } from "$lib/projet";
 </script>
 
+<svelte:head>
+    <title>Portfolio - Emma Guillaume</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="robots" content="all" />
+    <meta name="target" content="all" />
+
+    <meta name="author" content="Emma Guillaume" />
+    <meta name="owner" content="Emma Guillaume" />
+    <meta name="language" content="fr" />
+    <meta http-equiv="content-language" content="fr" />
+
+    <meta name="url" content="emmaguillaume.fr" />
+    <meta name="identifier-URL" content="emmaguillaume.fr" />
+    <link rel="canonical" href="emmaguillaume.fr" />
+
+    <meta name="subject" content="Seo" />
+    <meta
+        name="description"
+        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+    />
+
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta
+        property="og:description"
+        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+    />
+    <meta property="og:site_name" content="Emma Guillaume " />
+    <meta property="og:url" content="emmaguillaume.fr" />
+    <meta property="og:locale" content="fr" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Portfolio" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
+    <meta name="theme-color" content="#79A671" />
+</svelte:head>
 <main class="container  lg:ml-28 text-p">
     <section class="flex flex-row justify-start gap-24">
         <div class="text-lg">
