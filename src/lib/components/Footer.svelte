@@ -1,18 +1,31 @@
 <script lang="ts">
 </script>
 
-<footer class="container lg:ml-28">
+<footer class="container mt-12 mb-8 lg:ml-28 text-p">
     <div class="footer__contact">
-        <h2>Envie de discuter ?</h2>
-        <ul>
-            <li>07 83 28 02 84</li>
-            <li>LinkedIn</li>
-            <li>emma.guillaume.contactpro@gmail.com</li>
-            <li><a href="#plandulit">Plan du site</a></li>
+        <h2 class="text-2xl font-bold" id="contact">Envie de discuter ?</h2>
+        <ul class="text-lg lg:mt-4">
+            <li class="my-1">07 83 28 02 84</li>
+            <li class="underline my-1">
+                <a
+                    href="https://www.linkedin.com/in/emma-guillaume-7122a6202"
+                /> LinkedIn
+            </li>
+            <li
+                class="underline my-1
+            "
+            >
+                <a href="maito:emma.guillaume.contactpro@gmail.com">
+                    emma.guillaume.contactpro@gmail.com</a
+                >
+            </li>
+            <!-- <li><a href="#plandulit">Plan du site</a></li> -->
         </ul>
     </div>
-    <div class="footer__legacy">
-        <p>© 2022 Emma Guillaume</p>
+    <div
+        class=" mt-24 text-lg flex items-center flex-col lg:flex row gap-3 lg:mt-24"
+    >
+        <p>©2023 Emma Guillaume</p>
         <p>Tous droits réservés</p>
     </div>
 </footer>

@@ -42,18 +42,24 @@
         /> -->
     </section>
     <!-- <LastProject /> -->
-    <div class="flex flex-row align-middle mt-12 lg:w-11/12">
+    <div class="flex flex-row items-center align-middle mt-12 lg:w-11/12">
         <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
-        <a href="#projects" class="w-2/3 lg:w-fit pr-14"
-            ><img src="images/arrow-bottom.png" alt="fleche vers le bas" /></a
+        <a
+            href="#projects"
+            class="w-11/12 flex justify-center lg:w-fit lg:pr-14"
+            ><img
+                src="images/arrow-bottom.png"
+                alt="fleche vers le bas"
+                class="m-0"
+            /></a
         >
         <div class="h-1.5 bg-cta w-11/12 mt-4 mb-3" />
     </div>
-    <div class="projets">
+    <div class=" mt-8 lg:mt-8">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
-        <ul class="mt2">
+        <ul class="mt-4">
             {#each projets as project}
-                <li class="list-disc text-cta">
+                <li class="list-disc text-cta my-1 ">
                     <a
                         href={project.url}
                         class="text-cta font-bold text-lg underline "

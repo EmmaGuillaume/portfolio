@@ -15,12 +15,12 @@
 
     <div class="flex gap-10 font-normal  ">
         <a
-            href="#"
+            href="images/emma-guillaume-cv.pdf"
             class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px py-8px w-20 lg:h-12"
             >CV</a
         >
         <a
-            href="#"
+            href="#contact"
             class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px py-8px w-20s lg:h-12"
             >Contact</a
         >
