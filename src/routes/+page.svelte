@@ -53,7 +53,7 @@
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
         <ul>
             {#each projets as project}
-                <li>
+                <li class="list-disc text-cta">
                     <a
                         href={project.url}
                         class="text-cta font-bold text-lg underline "
