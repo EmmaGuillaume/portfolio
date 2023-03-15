@@ -47,7 +47,7 @@
         <a href="#projects" class="w-2/3 lg:w-fit pr-14"
             ><img src="images/arrow-bottom.png" alt="fleche vers le bas" /></a
         >
-        <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
+        <div class="h-1.5 bg-cta w-11/12 mt-4 mb-3" />
     </div>
     <div class="projets">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
