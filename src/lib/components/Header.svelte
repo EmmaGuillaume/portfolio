@@ -2,7 +2,7 @@
 </script>
 
 <header
-    class="container pt-8 mb-8 flex flex-col align-top gap-2.5 lg:flex-row lg:justify-evenly lg:align-middle  lg:ml-28"
+    class="container pt-8 mb-8 flex flex-col align-top gap-2.5 lg:w-screen lg:flex-row lg:justify-between lg:align-middle  lg:ml-28"
 >
     <div>
         <a href="#home"

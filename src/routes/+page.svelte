@@ -51,7 +51,7 @@
     </div>
     <div class="projets">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
-        <ul>
+        <ul class="mt2">
             {#each projets as project}
                 <li class="list-disc text-cta">
                     <a
