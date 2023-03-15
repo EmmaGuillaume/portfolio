@@ -22,8 +22,6 @@
     <meta name="url" content="emmaguillaume.fr" />
     <meta name="identifier-URL" content="emmaguillaume.fr" />
     <link rel="canonical" href="emmaguillaume.fr" />
-
-    <meta name="subject" content="Seo" />
     <meta
         name="description"
         content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
