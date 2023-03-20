@@ -1,9 +1,7 @@
 <script lang="ts">
-    import Header from "$lib/components/Header.svelte";
-    import Footer from "$lib/components/Footer.svelte";
     import LastProject from "$lib/components/LastProject.svelte";
     import ButtonDevProject from "$lib/components/ButtonDevProject.svelte";
-    import { projets } from "$lib/projet";
+    import { projects } from "$lib/projet";
 </script>
 
 <svelte:head>
@@ -94,7 +92,7 @@
     <div class=" mt-8 lg:mt-8">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
         <ul class="mt-4">
-            {#each projets as project}
+            {#each projects as project}
                 <li class="list-disc text-cta my-1 ">
                     <a
                         href={project.url}

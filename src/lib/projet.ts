@@ -1,11 +1,11 @@
-export interface Projet {
+export interface Project {
     name: string;
     language: string;
     type: string;
     url: string;
 }
 
-export const projets: Projet[] = [
+export const projects: Project[] = [
     {
         name: "Seinen Jump",
         language: "Ruby On Rails",
