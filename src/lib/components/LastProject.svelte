@@ -1,15 +1,14 @@
 <script>
-    import { projets } from "$lib/projet";
-    let imgProject = projets[0].imgUrl;
+    import { projects } from "$lib/projet";
 </script>
 
 <div class="last-project">
     <h2>Mon dernier projet</h2>
-    <a href="#"> Voir mon dernier projet</a>
+    <!-- <a href="#"> Voir mon dernier projet</a> -->
 </div>
 
 <style>
-    .last-project {
+    /* .last-project {
         display: flex;
         flex-direction: column;
         margin: 3vh 0;
@@ -19,5 +18,5 @@
     }
     .last-project img {
         border-radius: 10px;
-    }
+    } */
 </style>
