@@ -78,7 +78,7 @@
         /> -->
     </section>
     <!-- <LastProject /> -->
-    <div class="flex flex-row items-center align-middle mt-12 lg:w-11/12">
+    <div class="flex flex-row items-center align-middle mt-12 lg:w-full">
         <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
         <a
             href="#projects"
@@ -89,7 +89,7 @@
                 class="m-0"
             /></a
         >
-        <div class="h-1.5 bg-cta w-11/12 mt-4 mb-3" />
+        <div class="h-1.5 bg-cta w-screen mt-4 mb-3" />
     </div>
     <div class=" mt-8 lg:mt-8">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>

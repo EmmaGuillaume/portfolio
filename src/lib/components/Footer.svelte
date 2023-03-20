@@ -7,15 +7,15 @@
         <ul class="text-lg lg:mt-4">
             <li class="my-1">07 83 28 02 84</li>
             <li class="underline my-1">
-                <a
-                    href="https://www.linkedin.com/in/emma-guillaume-7122a6202"
-                /> LinkedIn
+                <a href="https://www.linkedin.com/in/emma-guillaume-7122a6202">
+                    LinkedIn
+                </a>
             </li>
             <li
                 class="underline my-1
             "
             >
-                <a href="maito:emma.guillaume.contactpro@gmail.com">
+                <a href="mailto:emma.guillaume.contactpro@gmail.com">
                     emma.guillaume.contactpro@gmail.com</a
                 >
             </li>
