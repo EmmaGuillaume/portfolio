@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-    <title>Portfolio - Emma Guillaume</title>
+    <title>Emma Guillaume - Développeuse Web Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -19,7 +19,7 @@
 
     <meta name="url" content="emmaguillaume.fr" />
     <meta name="identifier-URL" content="emmaguillaume.fr" />
-    <link rel="canonical" href="emmaguillaume.fr" />
+    <link rel="canonical" href="https://emmaguillaume.fr/" />
     <meta
         name="description"
         content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
@@ -34,6 +34,21 @@
     <meta property="og:site_name" content="Emma Guillaume " />
     <meta property="og:url" content="emmaguillaume.fr" />
     <meta property="og:locale" content="fr" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://emmaguillaume.fr/" />
+    <meta
+        name="twitter:title"
+        content="Emma Guillaume - Emma Guillaume - Développeuse Web Portfolio"
+    />
+    <meta
+        name="twitter:description"
+        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+    />
+    <meta
+        name="twitter:image"
+        content="https://media.licdn.com/dms/image/C4E03AQGGdQxYPGE_aQ/profile-displayphoto-shrink_800_800/0/1649773337004?e=2147483647&v=beta&t=k_aPJmzIm5YvstHqybiP_CNfGijJOehpS0wWVSy27Mg"
+    />
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Portfolio" />
