@@ -1,8 +1,25 @@
 @font-face {
     font-family: 'Satoshi';
-    src: url("/font/Satoshi-Black.otf") format("otf"),
-        url("/font/Satoshi-Bold.otf") format("otf"),
-        url("/font/Satoshi-Light.otf") format("otf"),
-        url("/font/Satoshi-Medium.otf") format("otf"),
-        url("/font/Satoshi-Regular.otf") format("otf");
+    src: url("/static/font/Satoshi-Regular.otf") format("otf"), url("/static/font/Satoshi-Black.otf") format("otf"), url("/static/font/Satoshi-Bold.otf") format("otf"), url("/static/font/Satoshi-Light.otf") format("otf") url("/static/font/Satoshi-Medium.otf") format("otf");
 }
+
+/* 
+@font-face {
+    font-family: 'Satoshi-black';
+    src: url("/font/Satoshi-Black.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Satoshi-bold';
+    src: url("/font/Satoshi-Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Satoshi-light';
+    src: url("/font/Satoshi-Light.otf") format("otf");
+}
+
+@font-face {
+    font-family: 'Satoshi-medium';
+    src: url("/font/Satoshi-Medium.otf") format("otf");
+} */
