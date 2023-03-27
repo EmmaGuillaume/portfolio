@@ -31,15 +31,15 @@
         property="og:description"
         content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
     />
-    <meta property="og:site_name" content="Emma Guillaume " />
-    <meta property="og:url" content="emmaguillaume.fr" />
+    <meta property="og:site_name" content="Emma Guillaume" />
+    <meta property="og:url" content="https://emmaguillaume.fr/" />
     <meta property="og:locale" content="fr" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://emmaguillaume.fr/" />
     <meta
         name="twitter:title"
-        content="Emma Guillaume - Emma Guillaume - Développeuse Web Portfolio"
+        content="Emma Guillaume - Développeuse Web Portfolio"
     />
     <meta
         name="twitter:description"
