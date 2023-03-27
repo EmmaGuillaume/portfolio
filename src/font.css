@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Satoshi';
-    src: url("/static/font/Satoshi-Regular.otf") format("otf"), url("/static/font/Satoshi-Black.otf") format("otf"), url("/static/font/Satoshi-Bold.otf") format("otf"), url("/static/font/Satoshi-Light.otf") format("otf") url("/static/font/Satoshi-Medium.otf") format("otf");
+    src: url("/font/Satoshi-Regular.otf") format("otf"), url("/font/Satoshi-Black.otf") format("otf"), url("/font/Satoshi-Bold.otf") format("otf"), url("/font/Satoshi-Light.otf") format("otf"), url("/font/Satoshi-Medium.otf") format("otf"), ;
 }
 
 /* 
