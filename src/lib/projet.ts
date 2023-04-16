@@ -7,6 +7,34 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        name: "Eat",
+        language: "Figma",
+        type: "Maquettes",
+        url: "https://www.figma.com/proto/LnVLcnQnJ7XQWwfB6mlIcf/App-Recettes-TDAH?page-id=0%3A1&node-id=34-267&starting-point-node-id=1%3A2",
+
+    },
+    {
+        name: "Bild",
+        language: "Figma/Svelte/Tailwind/TS/JS",
+        type: "Maquettes / Web App",
+        url: "https://bild.ptitdom.fr/",
+
+    },
+    {
+        name: "Tuto Alternance",
+        language: "Premiere Pro/After Effect",
+        type: "Motion Design",
+        url: "https://www.behance.net/gallery/161642071/Stage-BUTMMI-1-CFA-Motion-Design",
+
+    },
+    {
+        name: "L'agenda Setting",
+        language: "Premiere Pro/After Effect",
+        type: "Motion Design",
+        url: "https://www.youtube.com/watch?v=69cmyUYI_t8",
+
+    },
+    {
         name: "Seinen Jump",
         language: "Ruby On Rails",
         type: "Web App",
@@ -15,9 +43,9 @@ export const projects: Project[] = [
     },
     {
         name: "Hélo Vélo",
-        language: "HTML/CSS",
-        type: "Site web",
-        url: "https://helo-velo.netlify.app/",
+        language: "Figma",
+        type: "Maquette refonte V3",
+        url: "https://www.figma.com/proto/PoJFuMCJeNoz1ehQIS0HOw/UX-design-project?page-id=516%3A36&node-id=516-3397&viewport=1164%2C140%2C0.11&scaling=scale-down&starting-point-node-id=516%3A3397&show-proto-sidebar=1",
     },
     {
         name: "Mission Goroskhova",
@@ -45,8 +73,8 @@ export const projects: Project[] = [
     },
     {
         name: "Embrouille au musée",
-        language: "Svelte/Tailwind/TS/JS",
-        type: "Web App",
+        language: "Figma/Svelte/Tailwind/TS/JS",
+        type: "Maquettes / Web App",
         url: "https://embrouille-au-musee.netlify.app/",
     }
 ]

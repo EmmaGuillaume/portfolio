@@ -55,15 +55,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
     <meta name="theme-color" content="#79A671" />
 </svelte:head>
-<main class="container  lg:ml-28 text-p">
+<main class="container lg:ml-28 text-p">
     <section class="flex flex-row justify-start gap-24">
         <div class="text-lg">
             <h2 class="text-2xl font-bold">
-                Développeuse web junior passionnée
+                Étudiante en Métiers du Multimédia et de l'Internet
             </h2>
             <p class="lg:pr-20">
-                Étudiante en MMI et alternante chez l’agence web Ideclap, je
-                cherche une nouvelle alternance en développement web front-end.
+                Passionnée par la création numérique, le design d'interface et
+                le développement web, je recherche un stage et une alternance
+                dans ces doamines.
             </p>
             <section class="mb-8">
                 <div class="mt-2">
@@ -73,14 +74,17 @@
                 <div>
                     <p class="font-medium">Je maitrise :</p>
                     <p>HTML/CSS</p>
+                    <p>Figma</p>
+                    <p>La suite Adobe</p>
                 </div>
                 <div>
                     <p class="font-medium">J'apprends :</p>
                     <p>Javascript, Typescript, Svelte, Tailwind</p>
+                    <p>De nouvelles pratiques en UI/UX design</p>
                 </div>
             </section>
             <a href="#projects" class="text-cta font-bold text-xl underline"
-                >Voir mes projets dev</a
+                >Voir mes projets</a
             >
             <!-- <a href="#">Voir mes autres projets</a> -->
         </div>
@@ -108,10 +112,10 @@
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
         <ul class="mt-4">
             {#each projects as project}
-                <li class="list-disc text-cta my-1 ">
+                <li class="list-disc text-cta my-1">
                     <a
                         href={project.url}
-                        class="text-cta font-bold text-lg underline "
+                        class="text-cta font-bold text-lg underline"
                         >{project.name} - {project.type} - {project.language}</a
                     >
                 </li>
