@@ -108,7 +108,7 @@
                 class="m-0"
             /></a
         >
-        <div class="h-1.5 bg-cta max-w-[100%] mt-4 mb-3" />
+        <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
     </div>
     <div class="mt-8">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
