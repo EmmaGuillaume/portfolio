@@ -55,16 +55,16 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
     <meta name="theme-color" content="#79A671" />
 </svelte:head>
-<main class="container lg:ml-28 text-p">
+<main class="container max-w-[100%] lg:pl-28 text-p">
     <section class="flex flex-row justify-start gap-24">
         <div class="text-lg">
             <h2 class="text-2xl font-bold">
                 Étudiante en Métiers du Multimédia et de l'Internet
             </h2>
-            <p class="lg:pr-20">
+            <p class="">
                 Passionnée par la création numérique, le design d'interface et
                 le développement web, je recherche un stage et une alternance
-                dans ces doamines.
+                dans ces domaines.
             </p>
             <section class="mb-8">
                 <div class="mt-2">
@@ -73,14 +73,18 @@
                 </div>
                 <div>
                     <p class="font-medium">Je maitrise :</p>
-                    <p>HTML/CSS</p>
-                    <p>Figma</p>
-                    <p>La suite Adobe</p>
+                    <ul>
+                        <li>- HTML/CSS</li>
+                        <li>- Figma</li>
+                        <li>- La suite Adobe</li>
+                    </ul>
                 </div>
                 <div>
                     <p class="font-medium">J'apprends :</p>
-                    <p>Javascript, Typescript, Svelte, Tailwind</p>
-                    <p>De nouvelles pratiques en UI/UX design</p>
+                    <ul>
+                        <li>- De nouvelles pratiques en UI/UX design</li>
+                        <li>- Javascript, Typescript, Svelte, Tailwind</li>
+                    </ul>
                 </div>
             </section>
             <a href="#projects" class="text-cta font-bold text-xl underline"
@@ -95,20 +99,18 @@
         /> -->
     </section>
     <!-- <LastProject /> -->
-    <div class="flex flex-row items-center align-middle mt-12 lg:w-full">
+    <div class="flex flex-row items-center align-middle mt-12 lg:hidden">
         <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
-        <a
-            href="#projects"
-            class="w-11/12 flex justify-center lg:w-fit lg:pr-14"
+        <a href="#projects" class="w-11/12 flex justify-center lg:w-fit"
             ><img
                 src="images/arrow-bottom.png"
                 alt="fleche vers le bas"
                 class="m-0"
             /></a
         >
-        <div class="h-1.5 bg-cta w-screen mt-4 mb-3" />
+        <div class="h-1.5 bg-cta max-w-[100%] mt-4 mb-3" />
     </div>
-    <div class=" mt-8 lg:mt-8">
+    <div class="mt-8">
         <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
         <ul class="mt-4">
             {#each projects as project}

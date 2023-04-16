@@ -4,7 +4,9 @@
     import "../app.css";
 </script>
 
-<div class="lg:w-1.5 bg-cta h-full fixed ml-20" />
-<Header />
-<slot />
-<Footer />
+<main class="relative w-screen">
+    <div class="lg:w-1.5 bg-cta h-full absolute left-16" />
+    <Header />
+    <slot />
+    <Footer />
+</main>

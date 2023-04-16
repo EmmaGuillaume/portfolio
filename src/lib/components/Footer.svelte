@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<footer class="container mt-12 mb-8 lg:ml-28 text-p">
+<footer class="container mt-12 mb-8 lg:pl-28 text-p">
     <div class="footer__contact">
         <h2 class="text-2xl font-bold" id="contact">Envie de discuter ?</h2>
         <ul class="text-lg lg:mt-4">
