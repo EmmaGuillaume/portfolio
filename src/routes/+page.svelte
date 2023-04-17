@@ -87,7 +87,7 @@
                     </ul>
                 </div>
             </section>
-            <a href="#projects" class="text-cta font-bold text-xl underline"
+            <a href="#projects" class="text-cta text-xl underline"
                 >Voir mes projets</a
             >
             <!-- <a href="#">Voir mes autres projets</a> -->
@@ -115,9 +115,7 @@
         <ul class="mt-4">
             {#each projects as project}
                 <li class="list-disc text-cta my-1">
-                    <a
-                        href={project.url}
-                        class="text-cta font-bold text-lg underline"
+                    <a href={project.url} class="text-cta text-lg underline"
                         >{project.name} - {project.type} - {project.language}</a
                     >
                 </li>
