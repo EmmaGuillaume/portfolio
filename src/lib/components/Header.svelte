@@ -15,7 +15,7 @@
 
     <div class="flex gap-10 font-normal">
         <a
-            href="/images/emma-guillaume-cv-webmaster.pdf"
+            href="/images/emma-guillaume.pdf"
             class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px pt-2.5 pb-0 w-20 lg:h-12"
             >CV</a
         >
