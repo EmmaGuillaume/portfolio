@@ -1,12 +1,12 @@
 <script>
-    import Footer from "$lib/components/Footer.svelte";
-    import Header from "$lib/components/Header.svelte";
-    import "../app.css";
+  import Footer from "$lib/components/Footer.svelte";
+  import Header from "$lib/components/Header.svelte";
+  import "../app.css";
 </script>
 
-<main class="relative">
-    <div class="lg:w-1.5 bg-cta h-full absolute left-16" />
-    <Header />
-    <slot />
-    <Footer />
+<main class="font-satoshi relative bg-background bg-texture bg-fixed bg-cover">
+  <div class="lg:w-[4px] bg-cta h-full absolute left-16 z-50" />
+  <Header />
+  <slot />
+  <Footer />
 </main>

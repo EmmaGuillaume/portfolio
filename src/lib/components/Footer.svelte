@@ -1,37 +1,39 @@
 <script lang="ts">
 </script>
 
-<footer class="container mt-12 pb-8 lg:pl-28 text-p">
-    <div class="footer__contact">
-        <h2 class="text-2xl font-bold" id="contact">Envie de discuter ?</h2>
-        <ul class="text-lg lg:mt-4">
-            <li class="my-1">07 83 28 02 84</li>
-            <li class="underline my-1">
-                <a href="https://www.linkedin.com/in/emma-guillaume-7122a6202">
-                    LinkedIn
-                </a>
-            </li>
-            <li
-                class="underline my-1
+<footer class="md:px-16 lg:px-32 lg:p-0 container mt-12 pb-8 text-text lg:mx-0">
+  <div class="footer__contact">
+    <h2 class="text-xl-mob md:text-xl font-bold" id="contact">
+      Envie de discuter ¿
+    </h2>
+    <ul class="text-base lg:mt-4">
+      <li class="my-1">07 83 28 02 84</li>
+      <li class="underline my-1">
+        <a href="https://www.linkedin.com/in/emma-guillaume-7122a6202">
+          LinkedIn
+        </a>
+      </li>
+      <li
+        class="underline my-1
             "
-            >
-                <a href="mailto:emma.guillaume.contactpro@gmail.com">
-                    emma.guillaume.contactpro@gmail.com</a
-                >
-            </li>
-            <!-- <li><a href="#plandulit">Plan du site</a></li> -->
-        </ul>
-    </div>
-    <div
-        class=" mt-24 text-lg flex items-center flex-col lg:flex row gap-3 lg:mt-24"
-    >
-        <p>©2023 Emma Guillaume</p>
-        <p>Tous droits réservés</p>
-    </div>
+      >
+        <a href="mailto:emma.guillaume.contactpro@gmail.com">
+          emma.guillaume.contactpro@gmail.com</a
+        >
+      </li>
+      <!-- <li><a href="#plandulit">Plan du site</a></li> -->
+    </ul>
+  </div>
+  <div
+    class=" mt-24 text-base flex items-center flex-col lg:flex row gap-3 lg:mt-24"
+  >
+    <p>©2023 Emma Guillaume</p>
+    <p>Tous droits réservés</p>
+  </div>
 </footer>
 
 <style>
-    /* .footer {
+  /* .footer {
         font-size: 18px;
     }
     .footer__legacy {

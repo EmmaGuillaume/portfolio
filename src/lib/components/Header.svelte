@@ -2,27 +2,20 @@
 </script>
 
 <header
-    class="container pt-8 mb-8 flex flex-col align-top lg:w-full lg:flex-row lg:justify-between lg:align-middle lg:pl-28"
+  class="z-40 py-4 px-8 md:px-16 lg:px-32 w-full bg-background bg-opacity-30 backdrop-blur-sm fixed flex flex-col justify-between lg:flex-row"
 >
-    <div>
-        <a href="#home"
-            ><h1 class="text-4xl text-p font-extrabold uppercase" id="home">
-                Emma Guillaume Portfolio
-            </h1></a
-        >
-        <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
-    </div>
+  <a href="#home" class="flex items-center gap-3">
+    <img class="w-12 md:w-16" src="/images/flower.svg" alt="" />
+    <h1
+      class="mb-2 md:mb-3 text-2xl-mob md:text-2xl text-cta font-extrabold"
+      id="home"
+    >
+      emma guillaume .
+    </h1></a
+  >
 
-    <div class="flex gap-10 font-normal">
-        <a
-            href="/images/emma-guillaume.pdf"
-            class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px pt-2.5 pb-0 w-20 lg:h-12"
-            >CV</a
-        >
-        <a
-            href="#contact"
-            class="text-center align-middle justify-center text-p border-2 border-p rounded-full px-16px pt-2.5 pb-0 w-20s lg:h-12"
-            >Contact</a
-        >
-    </div>
+  <a
+    href="/images/emma-guillaume.pdf"
+    class="mt-4 text-cta underline underline-offset-4">contact</a
+  >
 </header>

@@ -1,132 +1,137 @@
 <script lang="ts">
-    import LastProject from "$lib/components/LastProject.svelte";
-    import ButtonDevProject from "$lib/components/ButtonDevProject.svelte";
-    import { projects } from "$lib/projet";
+  import LastProject from "$lib/components/LastProject.svelte";
+  import ButtonDevProject from "$lib/components/ButtonDevProject.svelte";
+  import { projects } from "$lib/projet";
+  import Project from "$lib/components/Project.svelte";
 </script>
 
 <svelte:head>
-    <title>Emma Guillaume - Développeuse Web Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Emma Guillaume - Développeuse Web Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <meta name="robots" content="all" />
-    <meta name="target" content="all" />
+  <meta name="robots" content="all" />
+  <meta name="target" content="all" />
 
-    <meta name="author" content="Emma Guillaume" />
-    <meta name="owner" content="Emma Guillaume" />
-    <meta name="language" content="fr" />
-    <meta http-equiv="content-language" content="fr" />
+  <meta name="author" content="Emma Guillaume" />
+  <meta name="owner" content="Emma Guillaume" />
+  <meta name="language" content="fr" />
+  <meta http-equiv="content-language" content="fr" />
 
-    <meta name="url" content="emmaguillaume.fr" />
-    <meta name="identifier-URL" content="emmaguillaume.fr" />
-    <link rel="canonical" href="https://emmaguillaume.fr/" />
-    <meta
-        name="description"
-        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
-    />
+  <meta name="url" content="emmaguillaume.fr" />
+  <meta name="identifier-URL" content="emmaguillaume.fr" />
+  <link rel="canonical" href="https://emmaguillaume.fr/" />
+  <meta
+    name="description"
+    content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+  />
 
-    <meta property="og:title" content="Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta
-        property="og:description"
-        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
-    />
-    <meta property="og:site_name" content="Emma Guillaume" />
-    <meta property="og:url" content="https://emmaguillaume.fr/" />
-    <meta property="og:locale" content="fr" />
+  <meta property="og:title" content="Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:description"
+    content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+  />
+  <meta property="og:site_name" content="Emma Guillaume" />
+  <meta property="og:url" content="https://emmaguillaume.fr/" />
+  <meta property="og:locale" content="fr" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://emmaguillaume.fr/" />
-    <meta
-        name="twitter:title"
-        content="Emma Guillaume - Développeuse Web Portfolio"
-    />
-    <meta
-        name="twitter:description"
-        content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
-    />
-    <meta
-        name="twitter:image"
-        content="https://media.licdn.com/dms/image/C4E03AQGGdQxYPGE_aQ/profile-displayphoto-shrink_800_800/0/1649773337004?e=2147483647&v=beta&t=k_aPJmzIm5YvstHqybiP_CNfGijJOehpS0wWVSy27Mg"
-    />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://emmaguillaume.fr/" />
+  <meta
+    name="twitter:title"
+    content="Emma Guillaume - Développeuse Web Portfolio"
+  />
+  <meta
+    name="twitter:description"
+    content="Portfolio d'Emma Guillaume, étudiante en MMI Bordeaux, découvrez tous mes projets de développements web faits avec passion !"
+  />
+  <meta
+    name="twitter:image"
+    content="https://media.licdn.com/dms/image/C4E03AQGGdQxYPGE_aQ/profile-displayphoto-shrink_800_800/0/1649773337004?e=2147483647&v=beta&t=k_aPJmzIm5YvstHqybiP_CNfGijJOehpS0wWVSy27Mg"
+  />
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Portfolio" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
-    <meta name="theme-color" content="#79A671" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Portfolio" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
+  <meta name="theme-color" content="#79A671" />
 </svelte:head>
-<main class="container max-w-[100%] lg:pl-28 text-p">
-    <section class="flex flex-row justify-start gap-24">
-        <div class="text-lg">
-            <h2 class="text-2xl font-bold">
-                Étudiante en Métiers du Multimédia et de l'Internet
-            </h2>
-            <p class="">
-                Passionnée par la création numérique, le design d'interface et
-                le développement web, je recherche un stage et une alternance
-                dans ces domaines.
-            </p>
-            <section class="mb-8">
-                <div class="mt-2">
-                    <p class="font-medium">Me définir en 3 mots :</p>
-                    <p>Curieuse, motivée, dynamique</p>
-                </div>
-                <div>
-                    <p class="font-medium">Je maitrise :</p>
-                    <ul>
-                        <li>- HTML/CSS</li>
-                        <li>- Figma</li>
-                        <li>- La suite Adobe</li>
-                    </ul>
-                </div>
-                <div>
-                    <p class="font-medium">J'apprends :</p>
-                    <ul>
-                        <li>- De nouvelles pratiques en UI/UX design</li>
-                        <li>- Javascript, Typescript, Svelte, Tailwind</li>
-                    </ul>
-                </div>
-            </section>
-            <a href="#projects" class="text-cta text-xl underline"
-                >Voir mes projets</a
-            >
-            <!-- <a href="#">Voir mes autres projets</a> -->
+<main class="pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
+  <section class="mb-24">
+    <div class="text-base">
+      <div class="flex flex-col gap-2 md:w-8/12">
+        <h2 class="text-xl-mob md:text-xl font-bold">
+          développeuse front-end junior passionnée .
+        </h2>
+        <p>
+          Hello ! Moi c’est Emma et je suis en <a
+            class="underline underline-offset-2"
+            href="https://www.mmibordeaux.com/">BUT MMI Bordeaux</a
+          >
+          . J’adore le développement web et c’est pour cela que je suis en alternance
+          chez
+          <a
+            class="underline underline-offset-2"
+            href="https://www.theseus-ai.com/">Theseus Ai</a
+          > en tant que développeuse front-end.
+        </p>
+      </div>
+
+      <section class="my-8 flex flex-col gap-2">
+        <div class="flex flex-col md:flex-row md:gap-2">
+          <p class="font-medium">Me définir en 3 mots :</p>
+          <p class="font-normal">Curieuse, motivée, dynamique</p>
         </div>
-        <!-- <img
+        <div class="flex flex-col md:flex-row md:gap-2">
+          <p class="font-medium">Je travaille avec :</p>
+          <p>NextJS, React, Typescript, TailwindCSS</p>
+        </div>
+        <div class="flex flex-col md:flex-row md:gap-2">
+          <p class="font-medium">J'apprends :</p>
+          <p>SvelteKit</p>
+        </div>
+      </section>
+      <!-- <a href="#projects" class="text-cta text-xl underline">Voir mes projets</a -->
+
+      <!-- <a href="#">Voir mes autres projets</a> -->
+    </div>
+    <!-- <img
             src="images/emma-guillaume-developpeuse-web-bordeaux.jpg"
             alt="fleche vers le bas"
             class="invisible lg:visible w-56 h-56 rounded-md "
         /> -->
-    </section>
-    <!-- <LastProject /> -->
-    <div class="flex flex-row items-center align-middle mt-12 lg:hidden">
-        <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
-        <a href="#projects" class="w-11/12 flex justify-center lg:w-fit"
-            ><img
-                src="images/arrow-bottom.png"
-                alt="fleche vers le bas"
-                class="m-0"
-            /></a
-        >
-        <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
+  </section>
+  <!-- <LastProject /> -->
+  <div class="flex flex-row items-center align-middle mt-12 lg:hidden">
+    <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
+    <a href="#projects" class="w-11/12 flex justify-center lg:w-fit"
+      ><img
+        src="images/arrow-bottom.png"
+        alt="fleche vers le bas"
+        class="m-0"
+      /></a
+    >
+    <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
+  </div>
+  <div class="mt-8 flex flex-col">
+    <h2 class="my-4 text-xl-mob md:text-xl font-bold">mes projets .</h2>
+    <div class="flex flex-col gap-8">
+      {#each projects as project}
+        <Project
+          imgSrc={project.image}
+          urlProject={project.url}
+          titleProject={project.name}
+          typeProject={project.type}
+          langProject={project.language}
+        />
+      {/each}
     </div>
-    <div class="mt-8">
-        <h2 id="projects" class="text-2xl font-bold">Mes projets</h2>
-        <ul class="mt-4">
-            {#each projects as project}
-                <li class="list-disc text-cta my-1">
-                    <a href={project.url} class="text-cta text-lg underline"
-                        >{project.name} - {project.type} - {project.language}</a
-                    >
-                </li>
-            {/each}
-        </ul>
-    </div>
-    <!-- <ButtonDevProject /> -->
+  </div>
+  <!-- <ButtonDevProject /> -->
 </main>
 
 <style>
-    /* .separation {
+  /* .separation {
         margin: 5vh 0;
         display: flex;
         flex-direction: row;

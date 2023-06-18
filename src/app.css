@@ -1,12 +1,40 @@
-@import "font.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html,
 body {
     scroll-behavior: smooth;
-    font-family: 'Poppins';
-    background-color: #feffed;
+}
+
+@layer base {
+	@font-face {
+		font-family: 'Satoshi';
+		src: local('Satoshi-Black'),
+			url('/font/Satoshi-Black.otf');
+		font-weight: heavy;
+		font-display: auto;
+	}
+    @font-face {
+		font-family: 'Satoshi';
+		src: local('Satoshi-Bold'),
+			url('/font/Satoshi-Bold.otf');
+		font-weight: bold;
+		font-display: auto;
+	}
+    @font-face {
+		font-family: 'Satoshi';
+		src: local('Satoshi-Regular'),
+			url('/font/Satoshi-Regular.otf');
+		font-weight: normal;
+		font-display: auto;
+	}
+    @font-face {
+		font-family: 'Satoshi';
+		src: local('Satoshi-Medium'),
+			url('/font/Satoshi-Medium.otf');
+		font-weight: 500;
+		font-display: auto;
+	}
+	
 }
