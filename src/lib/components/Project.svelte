@@ -8,7 +8,12 @@
 </script>
 
 <div class="z-10 button-project flex flex-col gap-2 w-fit relative">
-  <a href={urlProject} class=" w-96 text-base flex gap-4">
+  <a
+    rel="noopener"
+    target="_blank"
+    href={urlProject}
+    class=" w-96 text-base flex gap-4"
+  >
     <img class="w-24 rounded-md" src={imgSrc} alt="" />
     <div class="flex flex-col justify-between">
       <div class="flex flex-col">

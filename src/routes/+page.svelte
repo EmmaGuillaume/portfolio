@@ -65,12 +65,16 @@
         </h2>
         <p>
           Hello ! Moi c’est Emma et je suis en <a
+            rel="noopener"
+            target="_blank"
             class="underline underline-offset-2"
             href="https://www.mmibordeaux.com/">BUT MMI Bordeaux</a
           >
           . J’adore le développement web et c’est pour cela que je suis en alternance
           chez
           <a
+            rel="noopener"
+            target="_blank"
             class="underline underline-offset-2"
             href="https://www.theseus-ai.com/">Theseus Ai</a
           > en tant que développeuse front-end.
@@ -91,29 +95,15 @@
           <p>SvelteKit</p>
         </div>
       </section>
-      <!-- <a href="#projects" class="text-cta text-xl underline">Voir mes projets</a -->
-
-      <!-- <a href="#">Voir mes autres projets</a> -->
+      <a
+        rel="noopener"
+        target="_blank"
+        href="emma-guillaume-cv.pdf"
+        class="text-cta text-lg font-bold underline">voir mon cv</a
+      >
     </div>
-    <!-- <img
-            src="images/emma-guillaume-developpeuse-web-bordeaux.jpg"
-            alt="fleche vers le bas"
-            class="invisible lg:visible w-56 h-56 rounded-md "
-        /> -->
   </section>
-  <!-- <LastProject /> -->
-  <div class="flex flex-row items-center align-middle mt-12 lg:hidden">
-    <div class="h-1.5 bg-cta w-full mt-4 mb-3 lg:hidden" />
-    <a href="#projects" class="w-11/12 flex justify-center lg:w-fit"
-      ><img
-        src="images/arrow-bottom.png"
-        alt="fleche vers le bas"
-        class="m-0"
-      /></a
-    >
-    <div class="h-1.5 bg-cta w-full mt-4 mb-3" />
-  </div>
-  <div class="mt-8 flex flex-col">
+  <div class="mt-12 flex flex-col">
     <h2 class="my-4 text-xl-mob md:text-xl font-bold">mes projets .</h2>
     <div class="flex flex-col gap-8">
       {#each projects as project}
@@ -127,43 +117,4 @@
       {/each}
     </div>
   </div>
-  <!-- <ButtonDevProject /> -->
 </main>
-
-<style>
-  /* .separation {
-        margin: 5vh 0;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    h2 {
-        font-size: 24px;
-    }
-    .presentation__button {
-        margin: 2vh 0;
-        display: flex;
-        flex-direction: column;
-    }
-    .presentation__button a {
-        font-weight: 500;
-        color: #79a671;
-        text-decoration: underline;
-    }
-    .presentation__category--p {
-        font-weight: 500;
-    }
-    .presentation__category p {
-        padding: 0;
-        margin: 0;
-    }
-    @media screen and (min-width: 868px) {
-        .separation__line--left {
-            display: none;
-        }
-        .separation img {
-            margin-right: 2vw;
-            max-width: 70%;
-        }
-    } */
-</style>

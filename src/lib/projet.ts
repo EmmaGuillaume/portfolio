@@ -54,7 +54,7 @@ export const projects: Project[] = [
 
     // },
     {
-        image:"../images/boulder.jpg",
+        image:"../images/helovelo.png",
         name: "Hélo Vélo",
         language: "Figma",
         type: "Maquette refonte V3",
@@ -62,7 +62,7 @@ export const projects: Project[] = [
         description:"cc",
 
     },
-    {   image:"../images/boulder.jpg",
+    {   image:"../images/mission.png",
         name: "Mission Goroskhova",
         language: "HTML/CSS",
         type: "Site web",
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     // },
     
     {
-        image:"../images/boulder.jpg",
+        image:"../images/yurushi.png",
         name: "Yurushi",
         language: "Unity/C#",
         type: "Jeu vidéo",
@@ -90,7 +90,7 @@ export const projects: Project[] = [
 
     },
     {
-        image:"../images/boulder.jpg",
+        image:"../images/embrouille-au-musee.png",
         name: "Embrouille au musée",
         language: "Figma/Svelte/Tailwind/TS/JS",
         type: "Web App",
