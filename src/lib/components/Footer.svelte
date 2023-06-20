@@ -3,7 +3,7 @@
 
 <footer
   id="contact"
-  class="md:px-16 lg:px-32 lg:p-0 mt-12 pb-8 text-text lg:mx-0"
+  class="px-8 md:px-16 lg:px-32 lg:p-0 mt-12 pb-8 text-text lg:mx-0"
 >
   <div class="footer__contact">
     <h2 class="text-xl-mob md:text-xl font-bold" id="contact">

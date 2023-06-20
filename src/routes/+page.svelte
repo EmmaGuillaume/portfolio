@@ -56,7 +56,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
   <meta name="theme-color" content="#79A671" />
 </svelte:head>
-<main class="pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
+<main class="px-8 pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
   <section class="mb-24">
     <div class="text-base">
       <div class="flex flex-col gap-2 md:w-8/12">
