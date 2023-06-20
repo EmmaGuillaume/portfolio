@@ -53,8 +53,8 @@
 
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="Portfolio" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
-  <meta name="theme-color" content="#79A671" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#FEFFED" />
+  <meta name="theme-color" content="#FEFFED" />
 </svelte:head>
 <main class="px-8 pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
   <section class="mb-24">
