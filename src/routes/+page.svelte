@@ -56,7 +56,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#79A671" />
   <meta name="theme-color" content="#79A671" />
 </svelte:head>
-<main class="pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
+<main class="w-screen pt-36 lg:pt-48 md:px-16 lg:px-32 text-text">
   <section class="mb-24">
     <div class="text-base">
       <div class="flex flex-col gap-2 md:w-8/12">
@@ -98,7 +98,7 @@
       <a
         rel="noopener"
         target="_blank"
-        href="emma-guillaume-cv.pdf"
+        href="/images/emma-guillaume-cv.pdf"
         class="text-cta text-lg font-bold underline">voir mon cv</a
       >
     </div>
@@ -113,6 +113,7 @@
           titleProject={project.name}
           typeProject={project.type}
           langProject={project.language}
+          descProject={project.description}
         />
       {/each}
     </div>

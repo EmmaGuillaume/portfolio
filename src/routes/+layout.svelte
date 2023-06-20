@@ -4,7 +4,7 @@
   import "../app.css";
 </script>
 
-<main class="font-satoshi relative bg-background bg-texture bg-fixed bg-cover">
+<main class="px-8">
   <div class="lg:w-[4px] bg-cta h-full absolute left-16 z-50" />
   <Header />
   <slot />

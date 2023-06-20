@@ -17,15 +17,15 @@ export const projects: Project[] = [
     //     url: "https://www.figma.com/proto/LnVLcnQnJ7XQWwfB6mlIcf/App-Recettes-TDAH?page-id=0%3A1&node-id=34-267&starting-point-node-id=1%3A2",
     //     description:"cc",
     // },
-    // {
-    //     image:"../images/boulder.jpg",
-    //     name: "Bild",
-    //     language: "Figma/Svelte/Tailwind/TS/JS",
-    //     type: "Maquettes / Web App",
-    //     url: "https://bild.ptitdom.fr/",
-    //     description:"cc",
+    {
+        image:"../images/boulder.jpg",
+        name: "Bild",
+        language: "Figma/Svelte/Tailwind/TS/JS",
+        type: "Maquettes / Web App",
+        url: "https://bild.ptitdom.fr/",
+        description:"WebApp aidant les psychologues de l'association PtitDom",
 
-    // },
+    },
     // {
     //     image:"../images/boulder.jpg",
     //     name: "Tuto Alternance",
@@ -59,17 +59,17 @@ export const projects: Project[] = [
         language: "Figma",
         type: "Maquette refonte V3",
         url: "https://www.figma.com/proto/PoJFuMCJeNoz1ehQIS0HOw/UX-design-project?page-id=516%3A36&node-id=516-3397&viewport=1164%2C140%2C0.11&scaling=scale-down&starting-point-node-id=516%3A3397&show-proto-sidebar=1",
-        description:"cc",
+        description:"Refonte de l'app V3 Bordeaux",
 
     },
-    {   image:"../images/mission.png",
-        name: "Mission Goroskhova",
-        language: "HTML/CSS",
-        type: "Site web",
-        url: "https://missiongorokhova.netlify.app/",
-        description:"cc",
+    // {   image:"../images/mission.png",
+    //     name: "Mission Goroskhova",
+    //     language: "HTML/CSS",
+    //     type: "Site web",
+    //     url: "https://missiongorokhova.netlify.app/",
+    //     description:"cc",
 
-    },
+    // },
     // {
     //     image:"../images/boulder.jpg",
     //     name: "Greener",
@@ -86,7 +86,7 @@ export const projects: Project[] = [
         language: "Unity/C#",
         type: "Jeu vidéo",
         url: "https://yurushi-game.netlify.app/",
-        description:"cc",
+        description:"Création d'un jeu vidéo",
 
     },
     {
@@ -95,7 +95,7 @@ export const projects: Project[] = [
         language: "Figma/Svelte/Tailwind/TS/JS",
         type: "Web App",
         url: "https://embrouille-au-musee.netlify.app/",
-        description:"cc",
+        description:"WebApp réalisée pour la baccanight 2023",
 
     }
 ]

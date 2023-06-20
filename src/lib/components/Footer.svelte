@@ -40,7 +40,7 @@
     </ul>
   </div>
   <div
-    class="pb-4 mt-24 text-base flex justify-center lg:flex row gap-3 lg:mt-24"
+    class="pb-4 mt-24 text-base flex justify-center flex-col md:flex-row gap-3 lg:mt-24"
   >
     <p>©2023 Emma Guillaume</p>
     <p>Tous droits réservés</p>

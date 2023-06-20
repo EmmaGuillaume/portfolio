@@ -18,7 +18,7 @@
     <div class="flex flex-col justify-between">
       <div class="flex flex-col">
         <p class="font-bold">{titleProject} / {typeProject}</p>
-        <p class="w-fit">{descProject}</p>
+        <p class="w-fit opacity-60">{descProject}</p>
       </div>
       <p class="mb-2">{langProject}</p>
     </div>
