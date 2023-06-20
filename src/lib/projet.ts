@@ -18,7 +18,7 @@ export const projects: Project[] = [
     //     description:"cc",
     // },
     {
-        image:"../images/boulder.jpg",
+        image:"../images/bild.png",
         name: "Bild",
         language: "Figma/Svelte/Tailwind/TS/JS",
         type: "Maquettes / Web App",
