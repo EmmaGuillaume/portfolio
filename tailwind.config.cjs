@@ -28,7 +28,7 @@ module.exports = {
       colors: {
         'background': '#FEFFED',
         'cta': '#EE3900',
-        'text': '#070034',
+        'text': '#001A40',
       },
       fontFamily: {
         'satoshi': ['Satoshi'],

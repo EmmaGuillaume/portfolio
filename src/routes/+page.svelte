@@ -61,7 +61,7 @@
     <div class="text-base">
       <div class="flex flex-col gap-2 md:w-8/12">
         <h2 class="text-xl-mob md:text-xl font-bold">
-          développeuse front-end junior passionnée .
+          Développeuse front-end junior passionnée .
         </h2>
         <p>
           Hello ! Moi c’est Emma et je suis en <a
@@ -99,13 +99,13 @@
         rel="noopener"
         target="_blank"
         href="/images/emma-guillaume-cv.pdf"
-        class="text-cta text-lg font-bold underline">voir mon cv</a
+        class="text-cta text-lg font-bold underline">Voir mon cv</a
       >
     </div>
   </section>
   <div class="mt-12 flex flex-col">
-    <h2 class="my-4 text-xl-mob md:text-xl font-bold">mes projets .</h2>
-    <div class="flex flex-col gap-8">
+    <h2 class="my-4 text-xl-mob md:text-xl font-bold">Mes projets .</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {#each projects as project}
         <Project
           imgSrc={project.image}

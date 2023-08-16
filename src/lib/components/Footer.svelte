@@ -3,11 +3,11 @@
 
 <footer
   id="contact"
-  class="px-8 md:px-16 lg:px-32 lg:p-0 mt-12 pb-8 text-text lg:mx-0"
+  class="mt-24 px-8 md:px-16 lg:px-32 lg:p-0 pb-8 text-text lg:mx-0"
 >
   <div class="footer__contact">
     <h2 class="text-xl-mob md:text-xl font-bold" id="contact">
-      envie de discuter ¿
+      Envie de discuter ¿
     </h2>
     <ul class="text-base lg:mt-4">
       <li class="underline my-1 flex gap-2 mb-4">

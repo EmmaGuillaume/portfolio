@@ -18,6 +18,15 @@ export const projects: Project[] = [
     //     description:"cc",
     // },
     {
+        image:"../images/shiseido.jpg",
+        name: "Shiseido",
+        language: "Svelte/Tailwind",
+        type: "Web App",
+        url: "https://shiseido-dev.netlify.app/",
+        description:"Maquettes réalisées par Leïly Coquard Misono (MMI 2024)",
+
+    },
+    {
         image:"../images/bild.png",
         name: "Bild",
         language: "Figma/Svelte/Tailwind/TS/JS",
