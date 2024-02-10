@@ -79,6 +79,11 @@
             href="https://www.theseus-ai.com/">Theseus Ai</a
           > en tant que développeuse front-end.
         </p>
+        <p>
+          J'aimerais évoluer et avoir un panel de connaissances plus large,
+          c'est pour cela que me lance aussi dans l'apprentissage de languages
+          back-end.
+        </p>
       </div>
 
       <section class="my-8 flex flex-col gap-2">
@@ -92,7 +97,7 @@
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'apprends :</p>
-          <p>SvelteKit</p>
+          <p>SvelteKit, NestJS, PostgreeSQL, Expo</p>
         </div>
       </section>
       <a
