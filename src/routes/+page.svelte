@@ -105,14 +105,14 @@
   </section>
   <div class="mt-12 flex flex-col">
     <h2 class="my-4 text-xl-mob md:text-xl font-bold">Mes projets .</h2>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-12">
       {#each projects as project}
         <Project
           imgSrc={project.image}
           urlProject={project.url}
           titleProject={project.name}
           typeProject={project.type}
-          langProject={project.language}
+          langProject={project.stack}
           descProject={project.description}
         />
       {/each}

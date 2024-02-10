@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'texture': "url('/images/texture.png')",
+        'texture': "url('/images/texture.svg')",
       },
       spacing: {
         '8px': '8px',
