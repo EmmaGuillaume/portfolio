@@ -17,14 +17,29 @@
       emma guillaume .
     </h1>
   </div>
-  <div class="group relative w-fit h-fit mb-3">
-    <img
-      class="w-6 md:w-6 group-hover:visible invisible absolute -right-6 -bottom-3"
-      src="/images/flower.svg"
-      alt=""
-    />
-    <a href="#contact" class="mt-4 text-cta underline underline-offset-4"
-      >contact</a
-    >
+  <div class="flex gap-8 items-center">
+    <div class="group relative w-fit h-fit mb-3">
+      <img
+        class="w-6 md:w-6 group-hover:visible invisible absolute -right-6 -bottom-3"
+        src="/images/flower.svg"
+        alt=""
+      />
+      <a href="#contact" class="mt-4 text-cta underline underline-offset-4"
+        >contact</a
+      >
+    </div>
+    <div class="group relative w-fit h-fit mb-3">
+      <img
+        class="w-6 md:w-6 group-hover:visible invisible absolute -right-6 -bottom-3"
+        src="/images/flower.svg"
+        alt=""
+      />
+      <a
+        rel="noopener"
+        target="_blank"
+        href="/images/emma-guillaume-cv-developpeuse-web.pdf"
+        class="mt-4 text-cta underline underline-offset-4">CV</a
+      >
+    </div>
   </div>
 </header>
