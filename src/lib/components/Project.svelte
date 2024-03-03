@@ -25,13 +25,13 @@
         </div>
         <p class="font-bold mt-2">{titleProject} / {typeProject}</p>
         <p class="w-fit opacity-60">{@html descProject}</p>
+        <a
+          rel="noopener"
+          target="_blank"
+          class="bg-cta rounded-full w-fit px-3 border-2 border-cta text-background mt-2"
+          href={urlProject}>Découvrir</a
+        >
       </div>
     </div>
   </div>
-  <a
-    rel="noopener"
-    target="_blank"
-    class="bg-cta rounded-full w-fit px-3 border-2 border-cta text-background mt-2"
-    href={urlProject}>Découvrir</a
-  >
 </div>

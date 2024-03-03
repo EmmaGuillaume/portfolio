@@ -93,11 +93,11 @@
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">Je travaille avec :</p>
-          <p>NextJS, React, Typescript, TailwindCSS</p>
+          <p>NextJS, Redux Tool Kit, Typescript, TailwindCSS</p>
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'apprends :</p>
-          <p>SvelteKit, NestJS, PostgreeSQL, Expo</p>
+          <p>Angular, NestJS, PostgreeSQL, Expo</p>
         </div>
       </section>
       <a
@@ -110,7 +110,7 @@
   </section>
   <div class="mt-12 flex flex-col">
     <h2 class="my-4 text-xl-mob md:text-xl font-bold">Mes projets .</h2>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-16">
       {#each projects as project}
         <Project
           imgSrc={project.image}
