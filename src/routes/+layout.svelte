@@ -4,7 +4,7 @@
   import "../app.css";
 </script>
 
-<main class="">
+<main class="bg-backgroundImage">
   <div class="lg:w-[3px] bg-cta h-full absolute left-16 z-50" />
   <Header />
   <slot />
