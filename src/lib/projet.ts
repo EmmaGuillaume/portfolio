@@ -19,7 +19,7 @@ export const projects: Project[] = [
   },
   {
     image: "../images/labotanique.jpg",
-    name: "Le Labontanique",
+    name: "Le Labotanique",
     stack: ["Svelte", "Tailwind"],
     type: "Site web",
     url: "https://le-labotanique.netlify.app/",
