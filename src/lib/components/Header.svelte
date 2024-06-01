@@ -37,7 +37,7 @@
       <a
         rel="noopener"
         target="_blank"
-        href="/images/emma-guillaume-cv-developpeuse-web.pdf"
+        href="/images/emma-guillaume-cv-developpeuse.pdf"
         class="mt-4 text-cta underline underline-offset-4">CV</a
       >
     </div>

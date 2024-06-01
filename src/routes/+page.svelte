@@ -103,7 +103,7 @@
       <a
         rel="noopener"
         target="_blank"
-        href="/images/emma-guillaume-cv-developpeuse-web.pdf"
+        href="/images/emma-guillaume-cv-developpeuse.pdf"
         class="text-cta text-lg font-bold underline">Voir mon cv</a
       >
     </div>
