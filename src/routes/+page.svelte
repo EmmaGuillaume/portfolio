@@ -64,11 +64,12 @@
           Développeuse front-end junior passionnée .
         </h2>
         <p>
-          Hello ! Moi c’est Emma et je suis en <a
+          Hello ! Moi c’est Emma et je suis en école d'ingénieur informatique à <a
             rel="noopener"
             target="_blank"
             class="underline underline-offset-2"
-            href="https://www.mmibordeaux.com/">BUT MMI Bordeaux</a
+            href="https://www.junia.com/fr/formations-admissions/cycle-ingenieur/cycle-ingenieur-isen/"
+            >JUNIA Bordeaux</a
           >
           . J’adore le développement web et c’est pour cela que je suis en alternance
           chez
@@ -77,12 +78,7 @@
             target="_blank"
             class="underline underline-offset-2"
             href="https://www.theseus-ai.com/">Theseus Ai</a
-          > en tant que développeuse front-end.
-        </p>
-        <p>
-          J'aimerais évoluer et avoir un panel de connaissances plus large,
-          c'est pour cela que me lance aussi dans l'apprentissage de languages
-          back-end.
+          > en tant que développeuse web.
         </p>
       </div>
 
@@ -93,11 +89,11 @@
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">Je travaille avec :</p>
-          <p>NextJS, Redux Tool Kit, Typescript, TailwindCSS</p>
+          <p>Typescript : NextJS, Redux Tool Kit, NestJS, Expo, TailwindCSS</p>
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'apprends :</p>
-          <p>Angular, NestJS, PostgreeSQL, Expo</p>
+          <p>C, Java</p>
         </div>
       </section>
       <a

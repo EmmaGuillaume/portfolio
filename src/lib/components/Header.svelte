@@ -25,7 +25,7 @@
         alt=""
       />
       <a href="#contact" class="mt-4 text-cta underline underline-offset-4"
-        >contact</a
+        >Contact</a
       >
     </div>
     <div class="group relative w-fit h-fit mb-3">
