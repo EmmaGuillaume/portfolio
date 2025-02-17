@@ -60,9 +60,7 @@
   <section class="mb-24">
     <div class="text-base">
       <div class="flex flex-col gap-2 md:w-8/12">
-        <h2 class="text-xl-mob md:text-xl font-bold">
-          Développeuse front-end junior passionnée .
-        </h2>
+        <h2 class="text-xl-mob md:text-xl font-bold">Développeuse junior .</h2>
         <p>
           Hello ! Moi c’est Emma et je suis en école d'ingénieur informatique à <a
             rel="noopener"

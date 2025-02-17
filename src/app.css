@@ -4,37 +4,32 @@
 
 html,
 body {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @layer base {
-	@font-face {
-		font-family: 'Satoshi';
-		src: local('Satoshi-Black'),
-			url('/font/Satoshi-Black.otf');
-		font-weight: heavy;
-		font-display: auto;
-	}
-    @font-face {
-		font-family: 'Satoshi';
-		src: local('Satoshi-Bold'),
-			url('/font/Satoshi-Bold.otf');
-		font-weight: bold;
-		font-display: auto;
-	}
-    @font-face {
-		font-family: 'Satoshi';
-		src: local('Satoshi-Regular'),
-			url('/font/Satoshi-Regular.otf');
-		font-weight: normal;
-		font-display: auto;
-	}
-    @font-face {
-		font-family: 'Satoshi';
-		src: local('Satoshi-Medium'),
-			url('/font/Satoshi-Medium.otf');
-		font-weight: 500;
-		font-display: auto;
-	}
-	
+  @font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Black"), url("/font/Satoshi-Black.otf");
+    font-weight: heavy;
+    font-display: auto;
+  }
+  @font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Bold"), url("/font/Satoshi-Bold.otf");
+    font-weight: bold;
+    font-display: auto;
+  }
+  @font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Regular"), url("/font/Satoshi-Regular.otf");
+    font-weight: normal;
+    font-display: auto;
+  }
+  @font-face {
+    font-family: "Satoshi";
+    src: local("Satoshi-Medium"), url("/font/Satoshi-Medium.otf");
+    font-weight: 500;
+    font-display: auto;
+  }
 }
