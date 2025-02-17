@@ -69,14 +69,9 @@
             href="https://www.junia.com/fr/formations-admissions/cycle-ingenieur/cycle-ingenieur-isen/"
             >JUNIA Bordeaux</a
           >
-          . J’adore le développement web et c’est pour cela que je suis en alternance
-          chez
-          <a
-            rel="noopener"
-            target="_blank"
-            class="underline underline-offset-2"
-            href="https://www.theseus-ai.com/">Theseus Ai</a
-          > en tant que développeuse web.
+          . J’adore le développement informatique et c’est pour cela que je suis
+          en recherche d'alternance ! J'aimerais me spécialiser dans le développement
+          logiciel.
         </p>
       </div>
 
@@ -86,8 +81,11 @@
           <p class="font-normal">Curieuse, motivée, dynamique</p>
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
-          <p class="font-medium">Je travaille avec :</p>
-          <p>Typescript : NextJS, Redux Tool Kit, NestJS, Expo, TailwindCSS</p>
+          <p class="font-medium">J'ai l'habitude de travailler avec :</p>
+          <p>
+            Typescript - NextJS, Redux Tool Kit, NestJS, React Native (Expo),
+            TailwindCSS
+          </p>
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'apprends :</p>
