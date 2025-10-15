@@ -10,7 +10,7 @@
 <div class="group z-10 button-project flex flex-col gap-2 relative">
   <div class="w-full text-base flex gap-4">
     <img
-      class="w-24 h-fit rounded-md group-hover:-rotate-6 duration-300"
+      class="w-24 h-24 rounded-md group-hover:-rotate-6 duration-300"
       src={imgSrc}
       alt=""
     />

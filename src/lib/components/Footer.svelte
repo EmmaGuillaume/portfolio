@@ -26,8 +26,7 @@
           <img src="/images/github.svg" alt="" />
         </a>
       </li>
-      <li class="my-1">07 83 28 02 84</li>
-
+      
       <li
         class="underline my-1
             "
@@ -42,7 +41,7 @@
   <div
     class="pb-4 mt-24 text-base flex justify-center flex-col md:flex-row gap-3 lg:mt-24"
   >
-    <p>©2024 Emma Guillaume</p>
+    <p>©{new Date().getFullYear()} Emma Guillaume</p>
     <p>Tous droits réservés</p>
   </div>
 </footer>

@@ -68,17 +68,21 @@
             class="underline underline-offset-2"
             href="https://www.junia.com/fr/formations-admissions/cycle-ingenieur/cycle-ingenieur-isen/"
             >JUNIA Bordeaux</a
-          >
-          . J’adore le développement informatique et c’est pour cela que je suis
-          en recherche d'alternance ! J'aimerais me spécialiser dans le développement
-          logiciel.
+          >. 
+          J’adore le le numérique et trouver des solutions à des problèmes concrets. C'est pour cela que je suis en alternance chez <a
+            rel="noopener"
+            target="_blank"
+            class="underline underline-offset-2"
+            href="https://www.aspect-aquitaine.fr/"
+            >Aspect Nouvelle Aquitaine</a
+          > en tant qu'ingénieure du numérique. 
         </p>
       </div>
 
       <section class="my-8 flex flex-col gap-2">
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">Me définir en 3 mots :</p>
-          <p class="font-normal">Curieuse, motivée, dynamique</p>
+          <p class="font-normal">Synthétique, motivée, dynamique</p>
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'ai l'habitude de travailler avec :</p>
@@ -89,7 +93,7 @@
         </div>
         <div class="flex flex-col md:flex-row md:gap-2">
           <p class="font-medium">J'apprends :</p>
-          <p>C, Java</p>
+          <p>C, Java, C#, Design Patterns</p>
         </div>
       </section>
       <a
