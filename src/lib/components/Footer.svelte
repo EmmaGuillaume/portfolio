@@ -28,8 +28,7 @@
       </li>
       
       <li
-        class="underline my-1
-            "
+        class="underline my-1"
       >
         <a href="mailto:emma.guillaume.contactpro@gmail.com">
           emma.guillaume.contactpro@gmail.com</a
